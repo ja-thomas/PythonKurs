@@ -11,10 +11,10 @@ from PyQt4 import QtGui
 QtGui.QApplication.setLibraryPaths([]) #workaround for KDE and Anaconda
 
 G =  9.8 # acceleration due to gravity, in m/s^2
-L1 = 1.0 # length of pendulum 1 in m
-L2 = 1.0 # length of pendulum 2 in m
+L1 = 1.3 # length of pendulum 1 in m
+L2 = 0.7 # length of pendulum 2 in m
 M1 = 1.0 # mass of pendulum 1 in kg
-M2 = 2.0 # mass of pendulum 2 in kg
+M2 = 1.3 # mass of pendulum 2 in kg
 
 trl = 50
 
